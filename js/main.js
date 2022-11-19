@@ -11,7 +11,7 @@ function createListElement() {
   }
   // Put the code to append todo item LI element
   li.textContent = value;
-  input.value = " ";
+  input.value = "";
   ul.appendChild(li);
 
   function crossOut() {
